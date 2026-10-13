@@ -6,15 +6,15 @@ const Hero = () => {
       {/* ========================= Hero Section ==========================  */}
 
       <div className="flex  bg-black">
-        <div className="container m-auto flex gap-4">
-          <div className="w-1/2 flex gap-5 py-16 flex-col items-start">
+        <div className="container m-auto lg:flex gap-4 ">
+          <div className="lg:w-1/2 flex gap-5 py-16 flex-col items-start">
             <h2 className="text-orange-500 font-bold tracking-[5px]">
               -- EVERYTHING YOUR HOME NEEDS --
             </h2>
             <h1 className="text-white text-9xl tracking-wider leading-26 font-black uppercase">
               CONFIDENCE Quality Character Elegence
             </h1>
-            <p className="text-white text-lg pr-70 ">
+            <p className="text-white text-lg lg:pr-70 ">
               More than 100 manufactured-home replacement parts, name-brand
               appliances, complete HVAC systems from 1.5 to 5 tons, automatic
               filter delivery, and hard-working storage and utility goods—all in
@@ -29,7 +29,7 @@ const Hero = () => {
               MOBILE-HOME PARTS &emsp;|&emsp; DROPSHIP ONLY
             </p>
           </div>
-          <div className="w-1/2 grid-cols-2 grid-rows-2 grid">
+          <div className="lg:w-1/2 grid-cols-2 grid-rows-2 grid">
             <div className="bg-[#C6B79D] border relative h-110 ">
               <img
                 className="w-full brightness-75 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-100 h-full pbject-fit object-center abosolute"
