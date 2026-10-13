@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+html {
+  
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+ 
+  scrollbar-width: thin; 
+}
+
+
+html::-webkit-scrollbar {
+  
+  width: 4px; 
+}
+
+
+html::-webkit-scrollbar-track {
+  background: transparent; 
+
+}
+
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4); 
+
+  border-radius: 0px; 
+
+  border: 2px solid transparent; 
+}
+
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+/* ========================= font =========================== */
+
+@font-face {
+  font-family: impact;
+  src: url('./assets/fonts/impact/Impact.ttf');
+}
+h1, h2{
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
