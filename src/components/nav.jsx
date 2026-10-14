@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 const nav = () => {
   return (
     <div>
-      <div className="flex gap-5 text-white text-lg font-semibold">
+      <div className="lg:flex hidden gap-5 text-white text-lg font-semibold">
         <NavLink
           className={({ isActive }) =>
             `${isActive ? " text-orange-500" : "text-white"}`

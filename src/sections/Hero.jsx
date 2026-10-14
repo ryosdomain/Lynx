@@ -6,12 +6,12 @@ const Hero = () => {
       {/* ========================= Hero Section ==========================  */}
 
       <div className="flex  bg-black">
-        <div className="container m-auto lg:flex gap-4 ">
+        <div className="container m-auto lg:flex gap-6 items-center px-3 lg:px-0 ">
           <div className="lg:w-1/2 flex gap-5 py-16 flex-col items-start">
             <h2 className="text-orange-500 font-bold tracking-[5px]">
               -- EVERYTHING YOUR HOME NEEDS --
             </h2>
-            <h1 className="text-white text-9xl tracking-wider leading-26 font-black uppercase">
+            <h1 className="text-white text-7xl lg:text-8xl xl:text-9xl tracking-wider leading-18 lg:leading-26 font-black uppercase">
               CONFIDENCE Quality Character Elegence
             </h1>
             <p className="text-white text-lg lg:pr-70 ">

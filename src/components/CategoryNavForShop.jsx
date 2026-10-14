@@ -3,7 +3,7 @@ import CategoryTabButton from './CategoryTabButton'
 
 const CategoryNavForShop = () => {
   return (
-    <div className='flex gap-2 mt-10'>
+    <div className='flex flex-wrap gap-2 mt-10'>
         <CategoryTabButton />
         <CategoryTabButton />
         <CategoryTabButton />
