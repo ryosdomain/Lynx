@@ -4,7 +4,7 @@ import CategoryNavForShop from "../components/CategoryNavForShop";
 const ProductsHome = () => {
   return (
     <div className="bg-[#F7F2E8]">
-      <div className="container m-auto py-20">
+      <div className="container m-auto py-20 px-3 lg:px-0">
         <div className=''>
              <h2 className="text-orange-500 font-bold uppercase tracking-[5px]">SUITS · SHIRTS · OUTERWEAR</h2>
             <h1 className="text-black text-7xl font-black uppercase ">

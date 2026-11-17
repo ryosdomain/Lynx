@@ -3,8 +3,8 @@ import React from "react";
 const AboutWhyWe = () => {
   return (
     <div className="bg-[#F7F2E8]">
-      <div className="container m-auto flex py-20 gap-10 ">
-        <div className="w-1/2">
+      <div className="container m-auto flex flex-col lg:flex-row py-10 lg:py-20 gap-2 lg:gap-10 ">
+        <div className="lg:w-1/2">
           <h2 className="text-orange-500  font-bold uppercase tracking-[5px]">
             WHY WE EXIST
           </h2>
@@ -12,7 +12,7 @@ const AboutWhyWe = () => {
             BUILT TO MAKE GREAT STYLE EASIER TO FIND.
           </h1>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           Finding the right outfit shouldn't mean searching through endless
           racks, chasing trends, or settling for something that doesn't feel
           right. Lynx brings shirts, pants, coats, suits, and everyday

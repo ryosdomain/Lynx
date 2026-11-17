@@ -3,11 +3,11 @@ import React from "react";
 const Abouthero = () => {
   return (
     <div className="bg-black">
-      <div className="container m-auto py-20 text-white">
+      <div className="container m-auto py-20 text-white px-3 lg:px-0">
         <h2 className="text-orange-500 font-bold uppercase tracking-[5px]">ABOUT LYNX</h2>
-        <h1 className="text-white text-9xl mt-5 font-black uppercase ">BUILT FOR LOOK. </h1>
-        <h1 className="text-white text-9xl -mt-6 font-black uppercase "> DEFINED BY DETAILS.</h1>
-        <p className="w-1/2">
+        <h1 className="text-white text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-wider leading-14 lg:leading-20 xl:leading-24 2xl:leading-28 mt-5 font-black uppercase ">BUILT FOR LOOK. </h1>
+        <h1 className="text-white text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-wider leading-14 lg:leading-20 xl:leading-24 2xl:leading-28 lg:-mt-5 font-black uppercase "> DEFINED BY DETAILS.</h1>
+        <p className="lg:w-1/2">
           Lynx brings together modern tailoring, timeless essentials, and
           elevated everyday wear. From sharp suits and refined shirts to
           tailored pants and statement outerwear, every piece is chosen to

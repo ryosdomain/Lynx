@@ -6,12 +6,12 @@ const Hero = () => {
       {/* ========================= Hero Section ==========================  */}
 
       <div className="flex  bg-black">
-        <div className="container m-auto lg:flex gap-6 items-center px-3 lg:px-0 ">
-          <div className="lg:w-1/2 flex gap-5 py-16 flex-col items-start">
+        <div className="container m-auto lg:flex gap-6 items-center  ">
+          <div className="lg:w-1/2 flex gap-5 py-16 flex-col items-start px-3 lg:px-0">
             <h2 className="text-orange-500 font-bold tracking-[5px]">
-              -- EVERYTHING YOUR HOME NEEDS --
+              EVERYTHING YOUR HOME NEEDS 
             </h2>
-            <h1 className="text-white text-7xl lg:text-8xl xl:text-9xl tracking-wider leading-18 lg:leading-26 font-black uppercase">
+            <h1 className="text-white text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-wider leading-18 lg:leading-20 xl:leading-24 2xl:leading-28 font-black uppercase">
               CONFIDENCE Quality Character Elegence
             </h1>
             <p className="text-white text-lg lg:pr-70 ">
@@ -30,28 +30,28 @@ const Hero = () => {
             </p>
           </div>
           <div className="lg:w-1/2 grid-cols-2 grid-rows-2 grid">
-            <div className="bg-[#C6B79D] border relative h-110 ">
+            <div className="bg-[#C6B79D] border relative h-60 lg:h-110 ">
               <img
                 className="w-full brightness-75 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-100 h-full pbject-fit object-center abosolute"
                 src="https://images.pexels.com/photos/18188473/pexels-photo-18188473.jpeg"
                 alt=""
               />
             </div>
-            <div className="bg-[#C6B79D] border relative h-110 ">
+            <div className="bg-[#C6B79D] border relative h-60 lg:h-110 ">
               <img
                 className="w-full brightness-75 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-100 h-full pbject-fit object-center abosolute"
                 src="https://images.pexels.com/photos/30940601/pexels-photo-30940601.jpeg"
                 alt=""
               />
             </div>
-            <div className="bg-[#C6B79D] border relative h-110 ">
+            <div className="bg-[#C6B79D] border relative h-60 lg:h-110 ">
               <img
                 className="w-full brightness-75 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-100 h-full pbject-fit object-center abosolute"
                 src="https://images.pexels.com/photos/16959150/pexels-photo-16959150.jpeg"
                 alt=""
               />
             </div>
-            <div className="bg-[#C6B79D] border relative h-110 ">
+            <div className="bg-[#C6B79D] border relative h-60 lg:h-110 ">
               <img
                 className="w-full brightness-75 saturate-50 hover:saturate-100 hover:brightness-100 transition-all duration-100 h-full pbject-fit object-center abosolute"
                 src="https://images.pexels.com/photos/32549963/pexels-photo-32549963.jpeg"
